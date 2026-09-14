@@ -10,7 +10,7 @@ Capstone Project Modul 4 — AI Engineering, Purwadhika
 
 Project ini mendeteksi kelengkapan Alat Pelindung Diri (APD) pekerja konstruksi dari sebuah foto. Diberikan satu gambar, aplikasi akan mendeteksi setiap pekerja, mengecek apakah masing-masing memakai **helm** dan **rompi keselamatan**, lalu melaporkan berapa pekerja yang sudah lengkap APD-nya, berapa yang terkonfirmasi APD tidak lengkap, dan berapa yang belum jelas statusnya sehingga perlu dicek manual.
 
-Model deteksi yang dipakai adalah **YOLOv8n** yang di-fine-tune untuk 5 kelas: `person`, `helmet`, `no-helmet`, `vest`, `no-vest`. Tiga arsitektur (YOLOv8n, YOLOv8s, YOLOv12s) dilatih dan dibandingkan selama development — YOLOv8n akhirnya dipilih bukan karena mAP mentahnya paling tinggi, tapi karena tingkat **kesalahan false-safe**-nya paling rendah (yaitu kesalahan melabel pekerja yang sebenarnya APD tidak lengkap sebagai "aman"), yang merupakan jenis kesalahan paling mahal untuk alat safety-monitoring. Detail lengkap training, persiapan dataset, dan perbandingan model ada di notebook training.
+Model deteksi yang dipakai adalah **YOLOv8n** yang di-fine-tune untuk 5 kelas: `person`, `helmet`, `no-helmet`, `vest`, `no-vest`. Dua arsitektur (YOLOv8n, YOLOv12s) dilatih dan dibandingkan selama development — YOLOv8n akhirnya dipilih bukan karena mAP mentahnya paling tinggi, tapi karena tingkat **kesalahan false-safe**-nya paling rendah (yaitu kesalahan melabel pekerja yang sebenarnya APD tidak lengkap sebagai "aman"), yang merupakan jenis kesalahan paling mahal untuk alat safety-monitoring. Detail lengkap training, persiapan dataset, dan perbandingan model ada di notebook training.
 
 ## Fitur
 
