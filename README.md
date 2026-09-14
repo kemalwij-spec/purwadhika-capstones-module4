@@ -4,8 +4,6 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B)
 ![YOLOv8](https://img.shields.io/badge/Model-YOLOv8n-purple)
 
-*Baca dalam [English](README.md)*
-
 Capstone Project Modul 4 — AI Engineering, Purwadhika
 
 ## Ringkasan Project
