@@ -117,10 +117,10 @@ pip install -r requirements.txt
 
 ## Deployment Streamlit
 
-🔗 **Link aplikasi:** _[link Streamlit Community Cloud diisi di sini]_
+🔗 **Link aplikasi:** _[Link Aplikasi](https://purwadhika-capstones-module4-h5osguqm2r3v7cmr3oddy7.streamlit.app)_
 
 <!-- Contoh setelah deploy:
-🔗 **Link aplikasi:** https://nama-app-kamu.streamlit.app
+🔗 **Link aplikasi:** [Link Aplikasi](https://purwadhika-capstones-module4-h5osguqm2r3v7cmr3oddy7.streamlit.app)
 -->
 
 ---
